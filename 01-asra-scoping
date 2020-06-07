@@ -1,0 +1,16 @@
+overview
+
+who (are they)
+what (are they doing)
+why 
+when (timelines, if any)
+
+diagrams
+- data flow 
+- critical assets
+- at rest vs transit vs memory
+- high level 
+- low level
+- etc.
+
+threat modeling (with above)
