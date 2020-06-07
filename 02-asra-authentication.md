@@ -32,10 +32,9 @@ General example:
 [OWASP Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
 
 ### 2.6 Credential storage
+### 2.7 Hashing and salting
 
 [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
-
-### 2.7 Hashing and salting
 
 ##
 
@@ -48,7 +47,17 @@ General example:
 ### 2.9 OTPs (HOTPs, TOTPs)
 ### 2.10 Out of band verifiers (Email, SMS, etc.)
 
+[Transaction Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)
+
+
+
 ##
 
 ### 2.11 Single sign on
+
+[SAML Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
+
 ### 2.12 Service and application level authentication (and authorization)
+
+[OAuth Security](https://oauth.net/security/)
+
