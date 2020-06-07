@@ -13,9 +13,10 @@
 
 General example:
 
-| Length | 12 |
+| Requirement | details |
 | ------ | -- |
-| Character requirements | i.e. at least 1 upper, 1 lower, 1 special case |
+| Length | 12 |
+| Complexity | i.e. at least 1 upper, 1 lower, 1 special case |
 | Re-use | do not allow the same password as the last *5* passwords |
 | Age | passwords must be changed after *180* days |
 
