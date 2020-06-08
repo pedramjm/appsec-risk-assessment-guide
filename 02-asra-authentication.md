@@ -2,13 +2,11 @@
 
 [Authentication testing guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/README)
 
-
+[OWASP Top Ten 2017: Broken Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 
 
 
 ### 2.1 Password security
-
-[OWASP Top Ten 2017: Broken Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 
 [CWE-521: Weak Password Requirements](https://cwe.mitre.org/data/definitions/521.html)
 
@@ -25,6 +23,14 @@ General example:
 | Age | passwords must be changed after *180* days |
 * Note: this is an example, not recommended
 
+# Password form fields
+
+[CSRF Protection](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
+
+# Password update
+
+[OWASP Forgot Password Cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
+
 
 # Password Storage
 [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
@@ -36,7 +42,6 @@ General example:
 
 [OWASP Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
 
-
 ##
 
 ### 2.3 MFA/2FA and OTPs
@@ -45,17 +50,20 @@ General example:
 
 [Transaction Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)
 
+##
+
 ### 2.4 Captcha
 
 [reCAPTCHA](https://developers.google.com/recaptcha)
 
+##
 
 ### 2.5 Federated ID
-- SAML
-[SAML Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
-- OAuth
-[OAuth Security](https://oauth.net/security/)
+- [SAML Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
+- [OAuth Security](https://oauth.net/security/)
 - OpenID
+
+##
 
 ### 2.6 Service Authentication (Back-end)
 - Application authentication
