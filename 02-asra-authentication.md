@@ -1,6 +1,9 @@
-### General
+# V2. Authentication
 
 [Authentication testing guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/04-Authentication_Testing/README)
+
+
+
 
 
 ### 2.1 Password security
@@ -8,6 +11,7 @@
 [OWASP Top Ten 2017: Broken Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 
 [CWE-521: Weak Password Requirements](https://cwe.mitre.org/data/definitions/521.html)
+
 
 General example:
 
@@ -17,8 +21,10 @@ General example:
 | Complexity | i.e. at least 1 upper, 1 lower, 1 special case |
 | Re-use | do not allow the same password as the last *5* passwords |
 | Age | passwords must be changed after *180* days |
+* Note: this is an example, not recommended
 
-Password Storage
+
+Password Storage: 
 [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
 
@@ -38,6 +44,9 @@ Password Storage
 [Transaction Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)
 
 ### 2.4 Captcha
+
+[reCAPTCHA](https://developers.google.com/recaptcha)
+
 
 ### 2.5 Federated ID
 - SAML
