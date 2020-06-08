@@ -4,7 +4,9 @@
 
 [OWASP Top Ten 2017: Broken Authentication](https://owasp.org/www-project-top-ten/OWASP_Top_Ten_2017/Top_10-2017_A2-Broken_Authentication)
 
-##
+
+
+
 
 # 2.1 Password security
 
@@ -39,9 +41,13 @@ General example:
 
 
 
+
+
 # 2.2 Credential recovery
 
 [OWASP Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
+
+
 
 
 
@@ -55,9 +61,13 @@ General example:
 
 
 
+
+
 # 2.4 Captcha
 
 [reCAPTCHA](https://developers.google.com/recaptcha)
+
+
 
 
 
@@ -66,6 +76,8 @@ General example:
 - [SAML Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
 - [OAuth Security](https://oauth.net/security/)
 - OpenID
+
+
 
 
 
