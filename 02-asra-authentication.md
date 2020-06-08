@@ -11,7 +11,7 @@
 [CWE-521: Weak Password Requirements](https://cwe.mitre.org/data/definitions/521.html)
 
 
-# Password complexity
+### Password complexity
 
 General example:
 
@@ -23,16 +23,16 @@ General example:
 | Age | passwords must be changed after *180* days |
 * Note: this is an example, not recommended
 
-# Password form fields
+### Password form fields
 
 [CSRF Protection](https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html)
 
-# Password update
+### Password update
 
 [OWASP Forgot Password Cheat sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
 
 
-# Password Storage
+### Password Storage
 [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
 
