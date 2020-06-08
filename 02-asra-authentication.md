@@ -36,13 +36,15 @@ General example:
 [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
 
-##
+
+
 
 # 2.2 Credential recovery
 
 [OWASP Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
 
-##
+
+
 
 # 2.3 MFA/2FA and OTPs
 
@@ -50,20 +52,23 @@ General example:
 
 [Transaction Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)
 
-##
+
+
 
 # 2.4 Captcha
 
 [reCAPTCHA](https://developers.google.com/recaptcha)
 
-##
+
+
 
 # 2.5 Federated ID
 - [SAML Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
 - [OAuth Security](https://oauth.net/security/)
 - OpenID
 
-##
+
+
 
 # 2.6 Service Authentication (Back-end)
 - Application authentication
