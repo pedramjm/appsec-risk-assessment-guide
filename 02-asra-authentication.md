@@ -34,6 +34,7 @@ Password Storage
 ### 2.3 MFA/2FA and OTPs
 
 [OWASP MFA Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html)
+
 [Transaction Authorization Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Transaction_Authorization_Cheat_Sheet.html)
 
 ### 2.4 Captcha
