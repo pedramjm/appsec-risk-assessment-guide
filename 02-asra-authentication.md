@@ -6,7 +6,7 @@
 
 ##
 
-### 2.1 Password security
+# 2.1 Password security
 
 [CWE-521: Weak Password Requirements](https://cwe.mitre.org/data/definitions/521.html)
 
@@ -38,13 +38,13 @@ General example:
 
 ##
 
-### 2.2 Credential recovery
+# 2.2 Credential recovery
 
 [OWASP Forgot Password Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html)
 
 ##
 
-### 2.3 MFA/2FA and OTPs
+# 2.3 MFA/2FA and OTPs
 
 [OWASP MFA Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Multifactor_Authentication_Cheat_Sheet.html)
 
@@ -52,20 +52,20 @@ General example:
 
 ##
 
-### 2.4 Captcha
+# 2.4 Captcha
 
 [reCAPTCHA](https://developers.google.com/recaptcha)
 
 ##
 
-### 2.5 Federated ID
+# 2.5 Federated ID
 - [SAML Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SAML_Security_Cheat_Sheet.html)
 - [OAuth Security](https://oauth.net/security/)
 - OpenID
 
 ##
 
-### 2.6 Service Authentication (Back-end)
+# 2.6 Service Authentication (Back-end)
 - Application authentication
 - MicroService authentication
 - DB Authentication
