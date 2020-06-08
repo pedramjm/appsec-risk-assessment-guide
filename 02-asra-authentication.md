@@ -13,6 +13,8 @@
 [CWE-521: Weak Password Requirements](https://cwe.mitre.org/data/definitions/521.html)
 
 
+# Password complexity
+
 General example:
 
 | Requirement | details |
@@ -24,7 +26,7 @@ General example:
 * Note: this is an example, not recommended
 
 
-Password Storage: 
+# Password Storage
 [OWASP Password Storage Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html)
 
 
