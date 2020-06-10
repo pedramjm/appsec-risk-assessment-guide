@@ -1,0 +1,28 @@
+Communications	9.1.1	Verify that secured TLS is used for all client connectivity, and does not fall back to insecure or unencrypted protocols. 
+Communications	9.1.2	Verify using online or up to date TLS testing tools that only strong algorithms, ciphers, and protocols are enabled, with the strongest algorithms and ciphers set as preferred.
+Communications	9.1.3	Verify that old versions of SSL and TLS protocols, algorithms, ciphers, and configuration are disabled, such as SSLv2, SSLv3, or TLS 1.0 and TLS 1.1. The latest version of TLS should be the preferred cipher suite.
+Communications	9.2.1	Verify that connections to and from the server use trusted TLS certificates. Where internally generated or self-signed certificates are used, the server must be configured to only trust specific internal CAs and specific self-signed certificates. All others should be rejected.
+Communications	9.2.2	Verify that encrypted communications such as TLS is used for all inbound and outbound connections, including for management ports, monitoring, authentication, API, or web service calls, database, cloud, serverless, mainframe, external, and partner connections. The server must not fall back to insecure or unencrypted protocols.
+Communications	9.2.3	Verify that all encrypted connections to external systems that involve sensitive information or functions are authenticated.
+Communications	9.2.4	Verify that proper certification revocation, such as Online Certificate Status Protocol  Stapling, is enabled and configured.
+Communications	9.2.5	Verify that backend TLS connection failures are logged.
+
+
+-----------------------------------------
+
+
+This includes the following:
+
+10.1 Securing data in transit
+10.2 Server communications
+
+10.3 Certificates
+
+10.4 TLS
+10.5 mTLS
+
+10.6 HSTS
+10.7 CRL
+10.8 OCSP
+
+10.9 Public Key Pinning
