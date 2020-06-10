@@ -13,3 +13,39 @@ V13	API	13.3.1	Verify that XSD schema validation takes place to ensure a properl
 V13	API	13.3.2	Verify that the message payload is signed using WS-Security to ensure reliable transport between client and service.
 V13	API	13.4.1	Verify that query whitelisting or a combination of depth limiting and amount limiting should be used to prevent GraphQL or data layer expression denial of service (DoS) as a result of expensive, nested queries. For more advanced scenarios, query cost analysis should be used.
 V13	API	13.4.2	Verify that GraphQL or other data layer authorization logic should be implemented at the business logic layer instead of the GraphQL layer.
+
+
+---
+
+5.1 Generic Web Service Security Verification
+5.2 RESTful Web Service Verification
+5.3 SOAP Web Service Verification
+5.4 GraphQL and other Web Service Data Layer Security
+
+5.5 GET/POST requests
+5.6 HTTP URL construction and content
+5.7 HTTP Methods allowed
+5.8 HTTP Headers
+
+5.9 HTTP Request handling i.e.: specific response types such as 406 Unacceptable, 404 File not Found
+
+Note: please take into account that Web (and API) functionality generally must consider other security domains listed within this form i.e. authentication, authorization and access control, Error message handling.
+
+
+---
+
+
+
+- API URLs and endpoints
+- GQL Endpoints
+- Content type handling
+
+- Encoding i.e. XML, JSON, GQL, Base64 etc.
+
+- Cookie handling
+
+- Verification of schema i.e. WSL, XML
+
+- TLS used
+
+- XML, JSON
