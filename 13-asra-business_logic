@@ -1,0 +1,26 @@
+BusLogic	11.1.1	Verify the application will only process business logic flows for the same user in sequential step order and without skipping steps.
+BusLogic	11.1.2	Verify the application will only process business logic flows with all steps being processed in realistic human time, i.e. transactions are not submitted too quickly.
+BusLogic	11.1.3	Verify the application has appropriate limits for specific business actions or transactions which are correctly enforced on a per user basis.
+BusLogic	11.1.4	Verify the application has sufficient anti-automation controls to detect and protect against data exfiltration, excessive business logic requests, excessive file uploads or denial of service attacks.
+BusLogic	11.1.5	Verify the application has business logic limits or validation to protect against likely business risks or threats, identified using threat modelling or similar methodologies.
+BusLogic	11.1.6	Verify the application does not suffer from "time of check to time of use"  issues or other race conditions for sensitive operations.
+BusLogic	11.1.7	Verify the application monitors for unusual events or activity from a business logic perspective. For example, attempts to perform actions out of order or actions which a normal user would never attempt. 
+BusLogic	11.1.8	Verify the application has configurable alerting when automated attacks or unusual activity is detected.
+
+
+
+--------------------------------
+
+
+
+Business logic errors/attacks can lead to availability issues such as Denial of Service as well as general unforeseen circumstances that may result in a negative impact on either the confidentiality or integrity of data. These are not easy to predict; careful consideration during the design phase is strongly recommended.
+
+Consider the following:
+- business logic flows for the same user
+- race conditions
+- sequential steps that are required to be performed by the end-user
+- rate limiting
+- single points of failure
+- queue management
+- threading and concurrency
+- error messages 
