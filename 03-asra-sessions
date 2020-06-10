@@ -1,0 +1,47 @@
+Session	3.1.1	Verify the application never reveals session tokens in URL parameters or error messages.
+Session	3.2.1	Verify the application generates a new session token on user authentication. 
+Session	3.2.2	Verify that session tokens possess at least 64 bits of entropy. 
+Session	3.2.3	Verify the application only stores session tokens in the browser using secure methods such as appropriately secured cookies  or HTML 5 session storage.
+Session	3.2.4	Verify that session token are generated using approved cryptographic algorithms. 
+Session	3.3.1	Verify that logout and expiration invalidate the session token, such that the back button or a downstream relying party does not resume an authenticated session, including across relying parties. 
+Session	3.3.2	If authenticators permit users to remain logged in, verify that re-authentication occurs periodically both when actively used or after an idle period. 
+Session	3.3.3	Verify that the application terminates all other active sessions after a successful password change, and that this is effective across the application, federated login , and any relying parties.
+Session	3.3.4	Verify that users are able to view and log out of any or all currently active sessions and devices.
+Session	3.4.1	Verify that cookie-based session tokens have the 'Secure' attribute set. 
+Session	3.4.2	Verify that cookie-based session tokens have the 'HttpOnly' attribute set. 
+Session	3.4.3	Verify that cookie-based session tokens utilize the 'SameSite' attribute to limit exposure to cross-site request forgery attacks. 
+Session	3.4.4	Verify that cookie-based session tokens use "__Host-" prefix  to provide session cookie confidentiality.
+Session	3.4.5	Verify that if the application is published under a domain name with other applications that set or use session cookies that might override or disclose the session cookies, set the path attribute in cookie-based session tokens using the most precise path possible. 
+Session	3.5.1	Verify the application does not treat OAuth and refresh tokens &mdash; on their own &mdash; as the presence of the subscriber and allows users to terminate trust relationships with linked applications.
+Session	3.5.2	Verify the application uses session tokens rather than static API secrets and keys, except with legacy implementations.
+Session	3.5.3	Verify that stateless session tokens use digital signatures, encryption, and other countermeasures to protect against tampering, enveloping, replay, null cipher, and key substitution attacks.
+Session	3.6.1	Verify that relying parties specify the maximum authentication time to CSPs and that CSPs re-authenticate the subscriber if they haven't used a session within that period.
+Session	3.6.2	Verify that CSPs inform relying parties of the last authentication event, to allow RPs to determine if they need to re-authenticate the user.
+Session	3.7.1	Verify the application ensures a valid login session or requires re-authentication or secondary verification before allowing any sensitive transactions or account modifications.
+
+
+-------------------------------------------
+
+
+
+This includes the following:
+
+3.1 Session management
+- Length
+- Expiration
+- Timeout
+- Logout
+- Session IDs
+- Storage
+
+3.2 Session tokens
+3.3 Session cookies
+
+3.4 Tokens in transit (GET vs POST)
+3.5 CORS (Cross origin resource sharing)
+3.6 Cache control
+
+3.7 Third-party session management
+- OpenID re-authentication
+
+3.8 Sensitive actions; re-checking session validity
