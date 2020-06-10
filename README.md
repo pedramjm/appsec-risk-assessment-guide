@@ -17,3 +17,6 @@ Contains documentation (guides, resources, links etc.) to accompany the formal a
 13. [Business Logic (DoS and Resiliency)](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/13-asra-business_logic)
 14. [Configuration Management and Hardening](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/14-asra-config_hardening)
 15. [Cloud Services](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/15-asra-cloud)
+
+16. Android development
+17. iOS development
