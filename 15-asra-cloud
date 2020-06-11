@@ -4,7 +4,7 @@ This includes the following:
 15.2 Azure
 15.3 Google Cloud
 
-15.4 Third-party IaaS, PaaS, SaaS, XaaS (other)
+15.4 Third-party SaaS, PaaS, IaaS, XaaS (other)
 
 Note: If you are building or deploying code within third-party cloud platforms and/or are using cloud proprietary services, please ensure that you have performed due diligence with respect to understanding how security should be managed.
 

@@ -17,19 +17,60 @@ V13	API	13.4.2	Verify that GraphQL or other data layer authorization logic shoul
 
 ---
 
-5.1 Generic Web Service Security Verification
-5.2 RESTful Web Service Verification
-5.3 SOAP Web Service Verification
-5.4 GraphQL and other Web Service Data Layer Security
+This includes the following:
 
-5.5 GET/POST requests
-5.6 HTTP URL construction and content
-5.7 HTTP Methods allowed
-5.8 HTTP Headers
+5.1 General Web service security
+- HTTP GET/POST requests
+- URI construction and content type handling
+- HTTP Methods allowed
+- HTTP Request handling
+  - specific response types such as 406 Unacceptable, 404 File not Found
 
-5.9 HTTP Request handling i.e.: specific response types such as 406 Unacceptable, 404 File not Found
+5.2 Secure Cookies
 
-Note: please take into account that Web (and API) functionality generally must consider other security domains listed within this form i.e. authentication, authorization and access control, Error message handling.
+5.3 Security headers
+
+5.4 Other public facing endpoints
+- API security
+- RESTful services
+- SOAP services
+- GraphQL and other data layer services
+
+5.5 Encoding (XML, JSON etc.)
+
+5.6 TLS
+
+
+
+Note: please take into account that Web (and API) functionality generally must consider other security domains listed within this form i.e. authentication, authorization and access control. See OWASP lists below as 
+
+
+Consider the OWASP Web Application Top 10 vulnerabilities:
+
+- Injection
+- Broken Authentication
+- Sensitive Data Exposure
+- XML External Entities (XXE)
+- Broken Access control
+- Security misconfigurations
+- Cross Site Scripting (XSS)
+- Insecure Deserialization
+- Using Components with known vulnerabilities
+- Insufficient logging and monitoring
+
+
+and the OWASP API Security Top 10:
+
+— Broken object level authorization
+— Broken authentication
+— Excessive data exposure
+— Lack of resources and rate limiting
+— Broken function level authorization
+— Mass assignment
+— Security misconfiguration
+— Injection
+— Improper assets management
+— Insufficient logging and monitoring
 
 
 ---

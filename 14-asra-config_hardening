@@ -31,19 +31,18 @@ Config	14.5.4	Verify that HTTP headers added by a trusted proxy or SSO devices, 
 
 This includes the following:
 
-14.1 Build and deployment processes
+14.1 Build and deployment processes (automation)
 14.2 Server config hardening
 14.3 Unintended security disclosure (logging and error message output)
 
-14.4 HTTP Security headers
-14.5 HTTP Request headers
-14.6 HTTP Methods
-
-14.7 Dependency checking
+14.4 Dependency checking
 - Up to date
 - Contain no vulnerabilities
 - Trusted source
 
-14.8 Remove unnecessary:
-services, ports, scripts, code, features, documentation, samples, config
+14.5 Remove unnecessary items
+- services
+- ports
+- code
+- scripts
 

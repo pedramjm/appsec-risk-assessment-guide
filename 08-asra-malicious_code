@@ -16,19 +16,19 @@ V10	Malicious	10.3.3	Verify that the application has protection from sub-domain 
 This includes the following:
 
 8.1 Security testing tools and methodology
--      IDE scanning
+-      IDE tools
 -      static code scanning
 -      peer review
 -      automated testing 
 -      vulnerability scanning
 -      penetration testing
 
-8.2 OWASP Top 10
+8.2 The OWASP Top 10
 
 8.3 Hard-coded secrets
 
 8.4 Third-party code / open source software
 
-8.5 Software updates
+8.5 Distributing software updates
 
 8.6 Code signing

@@ -31,5 +31,13 @@ This includes the following:
 
 11.2 Geolocation of data
 
-11.3 Data retention of PII
-11.4 Data destruction of PII
+11.3 Data retention length
+11.4 Secure data destruction
+
+11.5 Observing legal and regulatory requirements e.g. GDPR
+- Notification of intent to store/process/view/use data
+- Consent to store/process/view/use data
+
+
+Note: There are many legal and regulatory requirements that must be carefully observed, dependent on the legal jurisidictions in which we operate. This is not always straightforward; it is best to contact our in-house DPO and Legal team, who can provide guidance on matters related to Personally Identifiable Information (PII) and Electronic protected health information (ePHI).
+

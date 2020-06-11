@@ -20,8 +20,8 @@ Error	7.4.3	Verify that a "last resort" error handler is defined which will catc
 This includes the following:
 
 12.1 Log Content 
-12.2 Log Processing  
-12.3 Log Protection  
-12.4 Error Handling 
+12.2 Log Protection  
+12.3 Error Handling 
 
-12.5 Sensitive data and PII
+12.4 Sensitive data and PII
+
