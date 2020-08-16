@@ -3,7 +3,7 @@ Contains documentation (guides, resources, links etc.) to accompany the formal a
 
 
 1. [Scoping](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/01-asra-scoping)
-2. [Authentication](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/02-asra-authentication.md)
+2. [Authentication](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/02-asra-authentication)
 3. [Session Management](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/03-asra-sessions)
 4. [Authorisation and Access Control](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/04-asra-access.md)
 5. [Web and API Functionality](https://github.com/pedramjm/appsec-risk-assessment-guide/blob/master/05-asra-web_api)
